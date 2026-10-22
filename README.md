@@ -2,6 +2,7 @@
 
 REST API sederhana untuk mengelola kategori dan menu makanan pada sistem pemesanan mie ayam berbasis Node.js, Express, dan PostgreSQL (Supabase).
 
+- **Link Vercel:** https://backend-mie-ayam.vercel.app/
 - **Link ERD Diagram:** https://drawsql.app/teams/mabay/diagrams/cobates
 
 ---
