@@ -1,9 +1,19 @@
 # REST API Pemesanan Mie Ayam
 
+## Deskripsi Project
+
+REST API sederhana untuk mengelola kategori dan menu pada sistem pemesanan
+mie ayam. Dibuat dengan Node.js, Express, dan PostgreSQL (Supabase),
+dan di-deploy di Vercel.
+
 REST API sederhana untuk mengelola kategori dan menu makanan pada sistem pemesanan mie ayam berbasis Node.js, Express, dan PostgreSQL (Supabase).
 
 - **Link Vercel:** https://backend-mie-ayam.vercel.app/
-- **Link ERD Diagram:** https://drawsql.app/teams/mabay/diagrams/cobates
+
+## Skema Database
+![ERD](assets/erd.png)
+
+Link ERD: https://drawsql.app/teams/mabay/diagrams/cobates
 
 ---
 
@@ -184,3 +194,27 @@ REST API sederhana untuk mengelola kategori dan menu makanan pada sistem pemesan
   }
 }
 ```
+
+## Cara Menjalankan Secara Lokal
+
+1. Clone repository
+   ```bash
+   git clone <url-repo-kamu>
+   cd <nama-folder>
+   ```
+2. Install dependency
+   ```bash
+   npm install
+   ```
+3. Salin `.env.example` menjadi `.env`, lalu isi dengan connection string
+   database milik sendiri
+   ```
+   DATABASE_URL=postgresql://user:password@host:5432/dbname
+   ```
+4. Buat tabel di database sesuai skema di atas
+5. Jalankan server
+   ```bash
+   npm start
+   ```
+6. Buka `http://localhost:3000`. Jika berhasil, akan muncul pesan
+   "Koneksi berhasil".
