@@ -11,7 +11,7 @@ REST API sederhana untuk mengelola kategori dan menu makanan pada sistem pemesan
 - **Link Vercel:** https://backend-mie-ayam.vercel.app/
 
 ## Skema Database
-![ERD](assets/erd.png)
+![ERD](assets/ERD.png)
 
 Link ERD: https://drawsql.app/teams/mabay/diagrams/cobates
 
